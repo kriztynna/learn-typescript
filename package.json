@@ -1,0 +1,31 @@
+{
+  "name": "learn-typescript",
+  "version": "0.0.0",
+  "description": "Learn TypeScript and start using static typing in JavaScript",
+  "main": "workhop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kriztynna/learn-typescript.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "workshopper",
+    "typescript",
+    "node",
+    "javascript"
+  ],
+  "author": "Cristina Colón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kriztynna/learn-typescript/issues"
+  },
+  "dependencies": {
+    "workshopper": "^2.7.0",
+    "workshopper-boilerplate": "^1.1.0",
+    "workshopper-exercise": "^2.5.3",
+    "workshopper-wrappedexec": "^0.1.2"
+  }
+}
