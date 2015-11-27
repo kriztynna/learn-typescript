@@ -1,24 +1,16 @@
-Write a Node.js program that prints "HELLO WORLD" to the console.
+Write a TypeScript program that compiles to JavaScript that will print "HELLO TYPESCRIPT" to the console.
+
+You'll submit a TypeScript file (.ts), and the verify script will compile it to JavaScript before verifying the submission.
 
 ----------------------------------------------------------------------
 ## HINTS
 
-Don't worry about TypeScript just yet, we'll get to it very soon. For now, we just want to make sure this workshop is up and running for you.
+TypeScript is a super set of JavaScript. Put another way, all valid JavaScript is valid TypeScript. How would you write to the console if you were using JavaScript? That just might do the trick...
 
-You don't need deep knowledge of Node.js to learn-typescript, but it helps to have some familiarity. 
-
-As a reminder, writing to the console is as easy as
-
-```js
-console.log("your text here")
-```
-
-To verify your program, just invoke it with
+Remember, your solution must be a TypeScript file, not a JavaScript file. To verify, run
 
 ```sh
-$ {appname} verify program.js
+$ {appname} verify program.ts
 ```
-
-The lesson will be marked 'completed' if you are successful.
 
 ----------------------------------------------------------------------
