@@ -17,10 +17,13 @@ function setup (mode, callback) {
 	    return callback(new Error(this.__('error.submission_not_regular', {submission: path.resolve(submission.toString())})))
 
 	const tsc = spawn('tsc', [submission])
-	tsc.on('error', function (err) { console.error('ERROR EMITTED', err); });
-	tsc.on('message', function (msg) { console.log('MSG EMITTED', msg); });
+	tsc.on('error', function (err) {
+	    console.error('ERROR EMITTED', err);
+	});
+	tsc.on('message', function (msg) {
+	    console.log('MSG EMITTED', msg);
+	});
 	tsc.on('exit', function (code, signal) {
-	    console.log('EXITING WITH CODE',code)
 	    if (code===0) callback();
 	    else console.error(code, signal);
 	});
