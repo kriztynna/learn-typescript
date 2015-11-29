@@ -23,9 +23,11 @@
     "url": "https://github.com/kriztynna/learn-typescript/issues"
   },
   "dependencies": {
+    "after": "^0.8.1",
     "workshopper": "^2.7.0",
     "workshopper-boilerplate": "^1.1.0",
     "workshopper-exercise": "^2.5.3",
-    "workshopper-wrappedexec": "^0.1.2"
+    "workshopper-wrappedexec": "^0.1.2",
+    "xtend": "^4.0.1"
   }
 }
