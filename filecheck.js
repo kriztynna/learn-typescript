@@ -33,7 +33,7 @@ function setup (mode, callback) {
 
 function filecheck (exercise) {
     exercise.addSetup(setup)
-    return exercise
+    return exercise;
 }
 
 
